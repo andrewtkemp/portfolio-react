@@ -7,7 +7,7 @@ function Jumbotron() {
         <div style={{backgroundColor: "lightblue"}}>
       <h3>Welcome to my workspace</h3>
       <p>This is where I like to make creations that are fun and interactive.</p>
-        <image src="./assets/images/workspace" fluid />
+        <image src="" fluid />
       
         </div>
     </jumbotron>
