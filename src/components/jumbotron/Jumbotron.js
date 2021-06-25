@@ -1,14 +1,15 @@
-import React from "react";
+import React from "react"
 
-const Jumbotron = () => {
+function Jumbotron() {
   return (
-    <Jumbotron fluid>
-      <Container>
-        <h1>Fluid jumbotron</h1>
-        <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </Container>
-    </Jumbotron>
-  );
-};
+    <jumbotron fluid>
+        <div style={{backgroundColor: "lightblue"}}>
+      <h3>Welcome to my workspace</h3>
+      <p>This is where I like to make creations that are fun and interactive.</p>
+        <image src="holder.js/100px250 ./assets/images/workspace" fluid />
+        </div>
+    </jumbotron>
+  )
+}
 
 export default Jumbotron;
