@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Hero from './components/hero/Hero';
+import Jumbotron from './components/jumbotron/Jumbotron';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
+      <Jumbotron />
       <Footer />
     </div>
   );
