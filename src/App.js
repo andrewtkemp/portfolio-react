@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Jumbotron from './components/jumbotron/Jumbotron';
 import Work from './components/work/Work';
 import Footer from './components/footer/Footer'
+import Card from './components/cards/Cards'
 
 
 function Portfolio() {
@@ -12,7 +13,9 @@ function Portfolio() {
     <div className="App">
       <Header />
       <Jumbotron />
-      <Work />
+      <Work >
+        <Card />
+        </Work>
       <Footer />
     </div>
   );
