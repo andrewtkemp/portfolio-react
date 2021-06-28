@@ -1,24 +1,27 @@
 import React from "react";
-import "./App.css";
-import Header from './components/header/Header';
-import Jumbotron from './components/jumbotron/Jumbotron';
-import Work from './components/work/Work';
-import Footer from './components/footer/Footer'
-import Card from './components/cards/Cards'
+import { HashRouter as Router, Route } from "react-router-dom";
+import Header from "./components/Header";
+import About from "./pages/About";
+import Works from "./components/Works";
+import Footer from "./components/Footer";
+import "./style.css";
 
 
-function Portfolio() {
-  
+function App() {
   return (
-    <div className="App">
-      <Header />
-      <Jumbotron />
-      <Work >
-        <Card />
-        </Work>
-      <Footer />
+    <div>
+      <Router>
+
+        <Header />
+        <main>
+          <Route exact path="/about" component={About} />
+          <Route exact path="/work" component={Works} />
+
+        </main>
+        <Footer />
+      </Router>
     </div>
   );
 }
 
-export default Portfolio;
+export default App;
