@@ -26,12 +26,17 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="//skills" className={location.pathname === "//skills" ? "nav-link active" : "nav-link"}>
+              Skills
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/work" className={location.pathname === "/work" ? "nav-link active" : "nav-link"}>
               Work
             </Link>
           </li>
           <li className="nav-item">
-            <a class="nav-link" href="https://docs.google.com/document/d/1BDrVlpSrayWDSNwVCkzXPld3FVRpqqwCfMeo9evK6kw/edit?usp=sharing" target="_blank" rel="noreferrer">
+            <a class="nav-link" href="../../public/assets/Michelle-Berta-resume.pdf" target="_blank" rel="noreferrer">
               Resume
             </a>
           </li>
