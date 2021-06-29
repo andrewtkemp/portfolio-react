@@ -26,7 +26,7 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="//skills" className={location.pathname === "//skills" ? "nav-link active" : "nav-link"}>
+            <Link to="//skills" className={location.pathname === "/skills" ? "nav-link active" : "nav-link"}>
               Skills
             </Link>
           </li>
@@ -54,9 +54,6 @@ function Header() {
               <Link to="https://github.com/MichelleBerta" target="_blank" rel="noreferrer">
                 GitHub
               </Link>
-              <a className="dropdown-item" href="https://github.com/MichelleBerta" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
               <a className="dropdown-item" href="https://www.linkedin.com/in/michelle-berta" target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
