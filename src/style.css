@@ -6,83 +6,72 @@
   --light: #f8f9fa;
   --pink: #f5bff5;
   --yellow: #f5f3bf;
+  color: #a565e0;
 }
 
 body {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  /* background-image: "";
-  background-size: 100%;
-  background-attachment: fixed; */
+  line-height: 1.3;
+  font-size: 1.3rem;
+  /* background-image: url('./assets/images/workspace.svg');
+  background-repeat: no-repeat;*/
+  background-color: var(--charcoal);
 }
 
+/* navbar */
 nav {
   margin-right: 0% !important;
 }
 
-/* This is my navbar */
 .nav-link,
 .navbar-brand {
   font-size: 20px;
-  color:var(--purple);
 }
 
 .headshot {
-  width: 60%;
-  height: 90%;
+  max-width: 15%;
+  max-height: 15%;
   border-radius: 50px;
 }
 
-/* jumbotron styling */
-.jumbotron {
-  min-height: 100vh;
+
+/* main section */
+.about-me {
+  margin-top: 5rem!important
+}
+h3 {
+  font-family: "Pacifico", cursive;
 }
 
-.j-content {
-  margin-top: 20%;
-}
-
-.opacity {
-  opacity: 0.5;
-}
-
-/* This is my main section */
-h2 {
-  color: #a565e0;
-}
-
-.flow-text {
-  color: #a565e0;
+h3::after {
+  content: " 👋 ";
 }
 
 .border-top {
   border-width: 4px !important;
 }
-
-/* Changes carousel indicator color */
-.carousel-indicators {
-  filter: invert(100%);
+/* skills */
+ul li {
+  color: #a565e0;
 }
 
-.carousel-control-prev-icon {
-  filter: invert(100%);
+.skills {
+  margin-top: 5rem;
 }
 
-.carousel-control-next {
-  filter: invert(100%);
+/* work cards */
+.card {
+  margin: 2rem;
+  font-size: 1.3rem;
 }
 
-.carousel-caption {
-  background-color: rgba(233, 233, 233, 0.863);
-  color: rgb(19, 19, 19);
+.card.text {
+  font-size: 5rem;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.btn {
+  margin: 0.5rem;
 }
+
 
 @media only screen and (max-width: 992px) {
   .headshot {

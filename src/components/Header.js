@@ -1,67 +1,35 @@
 import React from "react";
-import { Link, Route, useLocation } from "react-router-dom";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+
 
 function Header() {
-  const location = useLocation();
-
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
-        <a className="navbar-brand">Michelle Berta</a>
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
-              About Me
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="//skills" className={location.pathname === "/skills" ? "nav-link active" : "nav-link"}>
-              Skills
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/work" className={location.pathname === "/work" ? "nav-link active" : "nav-link"}>
-              Work
-            </Link>
-          </li>
-          <li className="nav-item">
-            <a class="nav-link" href="../../public/assets/Michelle-Berta-resume.pdf" target="_blank" rel="noreferrer">
-              Resume
-            </a>
-          </li>
-          <li className="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contact
-            </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="tel:+4693580710" target="_blank" rel="noreferrer">
-                469-358-0710
-              </a>
-              <a className="dropdown-item" href="mailto:mailto:michelle.berta@att.net" target="_blank" rel="noreferrer">
-                michelle.berta@att.net
-              </a>
-              <Link to="https://github.com/MichelleBerta" target="_blank" rel="noreferrer">
-                GitHub
-              </Link>
-              <a className="dropdown-item" href="https://www.linkedin.com/in/michelle-berta" target="_blank" rel="noreferrer">
-                LinkedIn
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar className="p-2" bg="light" expand="lg">
+     
+   
+      <Navbar.Brand href="#about">Michelle Berta</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#skills">Skills</Nav.Link>
+          <Nav.Link href="#work">Work</Nav.Link>
+          <NavDropdown title="Contact" id="basic-nav-dropdown">
+            <NavDropdown.Item href="tel:+4693580710" target="_blank">
+              469-358-0710
+            </NavDropdown.Item>
+            <NavDropdown.Item href="mailto:michelle.berta@att.net" target="_blank">
+              michelle.berta@att.net
+            </NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/MichelleBerta" target="_blank">
+              GitHub
+            </NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/in/michelle-berta" target="_blank">
+              LinkedIn
+            </NavDropdown.Item>
+          </NavDropdown>
+        </Nav>
+      </Navbar.Collapse>
+      </Navbar>
   );
 }
 
