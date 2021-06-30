@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Logo from "../assets/images/MBLogo.png";
+import Logo from "../assets/MBLogo.png";
 
 
 function Header() {

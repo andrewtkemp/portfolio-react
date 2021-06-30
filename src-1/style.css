@@ -1,0 +1,114 @@
+* {
+  font-family: "Patrick Hand", cursive;
+  --purple: #a565e0;
+  --charcoal: #39373b;
+  --mint: #46f2db;
+  --light: #f8f9fa;
+  --pink: #f5bff5;
+  --yellow: #f5f3bf;
+  color: #46f2db;
+}
+
+body {
+  line-height: 1.4;
+  font-size: 1.4rem;
+  /*background-image: url("./assets/images/workspace.svg");
+  background-repeat: no-repeat;*/
+  background-color: var(--charcoal);
+  position: relative;
+  height: 100%;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+/* navbar */
+.nav-link,
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #a565e0 !important;
+  position: sticky !important;
+}
+
+.headshot {
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 50px;
+}
+
+.about-me {
+  margin-top: 5rem !important;
+}
+h3 {
+  font-family: "Pacifico", cursive;
+}
+
+h3::after {
+  content: " 👋 ";
+}
+
+.border-top {
+  border-width: 4px !important;
+}
+/* skills */
+.skills {
+  margin-top: 5rem;
+}
+
+/* work cards */
+.card {
+  margin: 2rem;
+}
+
+.card-text,
+.card-title {
+  color:#a565e0;
+  font-size: 1.4rem;
+}
+
+.btn {
+  margin: 0.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+
+  color: #a565e0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .headshot {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headshot {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-caption {
+    font-size: 1rem;
+  }
+
+  .my-section {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  .carousel-caption {
+    font-size: 0.8rem;
+  }
+
+  .headshot {
+    margin-left: 15%;
+  }
+}

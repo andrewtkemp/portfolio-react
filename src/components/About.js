@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "../assets/images/headshot-copy.jpg"
+import img1 from "../assets/headshot-copy.jpg"
 function About() {
   return (
     <div className="container mt-5 id" id="about">
-      <div className="col-s-12 col col-lg-12 col-xl-6 pl-5">
+      <div className="col-s-12 col col-lg-12 col-xl-12 pl-5">
         <img className="headshot img-fluid mt-5 float-end" alt="me" src={img1}></img>
       </div>
       <div className="col-s-12 col-lg-12 col-xl-12 pl-5 about-me">

@@ -1,7 +1,7 @@
 import React from "react";
-import workFull from "../workFull.json";
-import workBack from "../workBack.json";
-import worksFront from "../workFront.json";
+import workFull from "../workFull";
+import workBack from "../workBack";
+import workFront from "../workFront";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Card, Button } from "react-bootstrap";
 
@@ -16,7 +16,7 @@ function Work() {
         <div className="row justify-content-center" id="full">
           {workFull.map((workFull) => (
             <Card className="col-12" style={{ width: "25rem" }}>
-              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workFull.img} alt={workFull.alt} />
+              <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFull.image} alt={workFull.alt} />
               <Card.Body>
                 <Card.Title>{workFull.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Full Stack Application</Card.Subtitle>
@@ -33,27 +33,30 @@ function Work() {
         <div className="row justify-content-center" id="back">
           {workBack.map((workBack) => (
             <Card className="col-12" style={{ width: "25rem" }}>
-              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workBack.imgSrc} alt={workBack.alt} />
+             
               <Card.Body>
                 <Card.Title>{workBack.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Backend Application</Card.Subtitle>
                 <Card.Text>{workBack.description}</Card.Text>
                 <Card.Text>TECHNOLOGIES USED:  {workBack.technology}</Card.Text>
                 <Button target="_blank" href={workBack.repo}>See the Repo</Button>
+                <Button target="_blank" href={workBack.demo}>See a Demo</Button>
               </Card.Body>
             </Card>
           ))}
         </div>
 
         <div className="row justify-content-center" id="front">
-          {worksFront.map((workFront) => (
+          {workFront.map((workFront) => (
             <Card className="col-12" style={{ width: "25rem" }}>
-              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workFront.imgSrc} alt={workFront.alt} />
+              <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFront.image} alt={workFront.alt} />
               <Card.Body>
                 <Card.Title>{workFront.title}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Frontend Application</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Front Stack Application</Card.Subtitle>
                 <Card.Text>{workFront.description}</Card.Text>
                 <Card.Text>TECHNOLOGIES USED:  {workFront.technology}</Card.Text>
+                <Button target="_blank" href={workFront.deployed}>See the App</Button>
+        
                 <Button target="_blank" href={workFront.repo}>See the Repo</Button>
               </Card.Body>
             </Card>
