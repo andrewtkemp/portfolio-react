@@ -6,7 +6,7 @@
         "technology": "JavaScript, Node.js, Express.js, MongoDB, Mongoose ODM, IndexedDB, Webmanifest, Progressive Web App",
         "repo": "https://github.com/MichelleBerta/budget-tracker",
         "deployed": "https://secure-hollows-27877.herokuapp.com/",
-        "img": "",
+        "imgSrc": "./assets/images/budgetTracker.gif",
         "alt": "Budget Tracker App"
     },
     {
@@ -16,7 +16,7 @@
         "technology": "JavaScript, Node.js, Express.js, MongoDB, Mongoose ODM, Morgan.js, Chart.js",
         "repo": "https://github.com/MichelleBerta/workout-tracker",
         "deployed": "https://blooming-earth-81679.herokuapp.com/stats",
-        "img": "",
+        "imgSrc": "./assets/images/workoutTracker.gif",
         "alt": "Workout Tracker App"
     }
 ]

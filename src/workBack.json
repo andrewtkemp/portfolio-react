@@ -6,7 +6,7 @@
     "technology": "JavaScript, Node.js, Inquirer, Jest, Materialize",
     "repo": "https://github.com/MichelleBerta/team-profile-generator",
     "demo": "",
-    "img": "https://youtu.be/K93Dql_0bBg",
+    "imgSrc": "https://youtu.be/K93Dql_0bBg",
     "alt": "Team Profile Generator App"
 },
 {
@@ -15,7 +15,7 @@
     "description": "The employee tracker is a command-line application that allows the user to 1) add departments, roles, and employees 2) view departments, roles, and employees, and 3) update employee roles.",
     "technology": "Node.js, MySQL, console.table, Inquirer",
     "repo": "https://github.com/MichelleBerta/employee-tracker",
-    "img": "",
+    "imgSrc": "https://youtu.be/JWoBgxDw4zM",
     "demo": "https://youtu.be/JWoBgxDw4zM",
     "alt": "Employee Tracker App"
 }

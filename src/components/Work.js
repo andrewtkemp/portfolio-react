@@ -10,10 +10,10 @@ function Work() {
   return (
     <div className="container pt-5" id="work">
       <div className="row justify-content-center">
-        <h3 className="col-12">
+        <h2 className="col-12">
           Please feel free to look at some of my work.
-        </h3>
-        <div className="row justify-content-center">
+        </h2>
+        <div className="row justify-content-center" id="full">
           {workFull.map((workFull) => (
             <Card className="col-12" style={{ width: "25rem" }}>
               <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workFull.img} alt={workFull.alt} />
@@ -30,10 +30,10 @@ function Work() {
           ))}
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" id="back">
           {workBack.map((workBack) => (
             <Card className="col-12" style={{ width: "25rem" }}>
-              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workBack.img} alt={workBack.alt} />
+              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workBack.imgSrc} alt={workBack.alt} />
               <Card.Body>
                 <Card.Title>{workBack.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Backend Application</Card.Subtitle>
@@ -45,10 +45,10 @@ function Work() {
           ))}
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" id="front">
           {worksFront.map((workFront) => (
             <Card className="col-12" style={{ width: "25rem" }}>
-              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workFront.img} alt={workFront.alt} />
+              <Card.Img variant="top" className="testimonialImages d-block p-5 w-75 img-fluid rounded" src={workFront.imgSrc} alt={workFront.alt} />
               <Card.Body>
                 <Card.Title>{workFront.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Frontend Application</Card.Subtitle>

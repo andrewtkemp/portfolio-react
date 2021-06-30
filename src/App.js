@@ -9,7 +9,7 @@ import "./style.css";
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
         <Header />
         <About />
         <Skills />

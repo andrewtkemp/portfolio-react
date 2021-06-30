@@ -6,7 +6,7 @@
         "technology": "ReactJS, JSX, Random User API",
         "repo": "https://github.com/MichelleBerta/employee-directory",
         "deployed": "https://michelleberta.github.io/employee-directory",
-        "img": "./assets/images/employee-directory.gif",
+        "imgSrc": "./assets/images/employee-directory.gif",
         "alt": "Employee Directory App"
     },
     {
@@ -15,7 +15,7 @@
         "description": "This front end calendar application allows a user to save events for each hour of the day. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
         "technology": "HTML, CSS, JavaScript, JQuery",
         "repo": "https://github.com/MichelleBerta/work-day-scheduler",
-        "img": "./assets/images/workDayScheduler.gif",
+        "imgSrc": "./assets/images/workDayScheduler.gif",
         "alt": "Work Day Scheduler App"
     }
 ]
