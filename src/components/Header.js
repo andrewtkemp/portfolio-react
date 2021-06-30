@@ -21,7 +21,7 @@ function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#skills">Skills</Nav.Link>
-          <Nav.Link href="#skills">Work</Nav.Link>
+          <Nav.Link href="#work">Work</Nav.Link>
           <Nav.Link href="https://drive.google.com/file/d/1POaFUscTiAhJiFJu_G_zjr2d_rh1VVJ-/view?usp=sharing" target="_blank">Resume</Nav.Link>
 
 
