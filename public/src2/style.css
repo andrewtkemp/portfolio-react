@@ -12,19 +12,9 @@
 body {
   line-height: 1.4;
   font-size: 1.4rem;
-  /*background-image: url("./assets/images/workspace.svg");
-  background-repeat: no-repeat;*/
   background-color: var(--charcoal);
-  position: relative;
-  height: 100%;
 }
 
-.main-container {
-  min-height: 100vh; /* will cover the 100% of viewport */
-  overflow: hidden;
-  display: block;
-  position: relative;
-}
 
 /* navbar */
 .nav-link,
@@ -35,13 +25,14 @@ body {
 }
 
 .headshot {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 15%;
+  max-height: 15%;
   border-radius: 50px;
 }
 
 .about-me {
   margin-top: 5rem !important;
+  position: relative;
 }
 h3 {
   font-family: "Pacifico", cursive;
@@ -54,6 +45,7 @@ h3::after {
 .border-top {
   border-width: 4px !important;
 }
+
 /* skills */
 .skills {
   margin-top: 5rem;
@@ -76,8 +68,6 @@ h3::after {
 
 .footer {
   position: absolute;
-  bottom: 0;
-
   color: #a565e0 !important;
 }
 

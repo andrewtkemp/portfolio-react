@@ -2,13 +2,13 @@ import React from "react";
 import img1 from "../assets/headshot-copy.jpg"
 function About() {
   return (
-    <div className="container mt-5 id" id="about">
-      <div className="col-s-12 col col-lg-12 col-xl-12">
+    <div className="container mt-8 id" id="about">
+      <div className="col-s-12 col col-lg-12 col-xl-12 pl-5">
         <img className="headshot img-fluid mt-5 float-end" alt="me" src={img1}></img>
       </div>
-      <div className="col-s-12 col-lg-12 col-xl-12 about-me">
+      <div className="col-s-12 col-lg-12 col-xl-12 pl-5 mt100 about-me">
         <h3 className="flow-text">Hi! I'm Michelle.</h3>
-        <p className="flow-text mb-5 my-section">
+        <p className="flow-text mb-5 mt-3 my-section">
           After becoming an empty nester, I decided to take on a whole new role in life. I spent twenty one years working part time as an office manager while my three children were in school. Now I
           am looking for a fulfilling career as a web developer.
           <br />

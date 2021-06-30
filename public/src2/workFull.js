@@ -1,6 +1,7 @@
-import budget from "./assets/budgetTracker.gif"
+import budget from './assets/budgetTracker.gif'
+import workout from './assets/workoutTracker.gif'
 
-const workFull = [
+const workFull =[
     {
         "id": 1,
         "title": "Budget Tracker",
@@ -18,7 +19,7 @@ const workFull = [
         "technology": "JavaScript, Node.js, Express.js, MongoDB, Mongoose ODM, Morgan.js, Chart.js",
         "repo": "https://github.com/MichelleBerta/workout-tracker",
         "deployed": "https://blooming-earth-81679.herokuapp.com/stats",
-        "imgSrc": "./assets/workoutTracker.gif",
+        "image": workout,
         "alt": "Workout Tracker App"
     }
 ]

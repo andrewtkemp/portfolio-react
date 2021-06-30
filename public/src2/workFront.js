@@ -1,4 +1,7 @@
-[
+import employee from './assets/employeeDirectory.gif'
+import scheduler from './assets/workDayScheduler.gif'
+
+const workFront =[
     {
         "id": 5,
         "title": "Employee Directory",
@@ -6,7 +9,7 @@
         "technology": "ReactJS, JSX, Random User API",
         "repo": "https://github.com/MichelleBerta/employee-directory",
         "deployed": "https://michelleberta.github.io/employee-directory",
-        "imgSrc": "./assets/employee-directory.gif",
+        "image": employee,
         "alt": "Employee Directory App"
     },
     {
@@ -15,7 +18,9 @@
         "description": "This front end calendar application allows a user to save events for each hour of the day. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
         "technology": "HTML, CSS, JavaScript, JQuery",
         "repo": "https://github.com/MichelleBerta/work-day-scheduler",
-        "imgSrc": "./assets/workDayScheduler.gif",
+        "image": scheduler,
         "alt": "Work Day Scheduler App"
     }
 ]
+
+export default workFront;

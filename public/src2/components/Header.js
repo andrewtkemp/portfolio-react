@@ -5,7 +5,7 @@ import Logo from "../assets/MBLogo.png";
 
 function Header() {
   return (
-    <Navbar className="p-2" bg="dark" expand="lg">
+    <Navbar className="p-2" bg="dark" expand="lg" fixed="top">
       <Navbar.Brand href="#home">
       <img
         src={Logo}
@@ -21,8 +21,19 @@ function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#skills">Skills</Nav.Link>
-          <Nav.Link href="#work">Work</Nav.Link>
           <Nav.Link href="https://drive.google.com/file/d/1POaFUscTiAhJiFJu_G_zjr2d_rh1VVJ-/view?usp=sharing" target="_blank">Resume</Nav.Link>
+
+          <NavDropdown href="#work" title="Work" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#full">
+              Full Stack Applications
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#back">
+              Backend Applications
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#front">
+              Frontend Applications
+            </NavDropdown.Item>
+          </NavDropdown>
 
          <NavDropdown title="Contact" id="basic-nav-dropdown">
             <NavDropdown.Item href="tel:+4693580710" target="_blank">
