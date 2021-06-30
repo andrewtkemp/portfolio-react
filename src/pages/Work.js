@@ -15,7 +15,7 @@ function Work() {
         </h2>
         <div className="row justify-content-center" id="full">
           {workFull.map((workFull) => (
-            <Card className="col-12" style={{ width: "25rem" }}>
+            <Card className="col-12" style={{ width: "30rem" }}>
               <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFull.image} alt={workFull.alt} />
               <Card.Body>
                 <Card.Title>{workFull.title}</Card.Title>
@@ -32,7 +32,7 @@ function Work() {
 
         <div className="row justify-content-center" id="back">
           {workBack.map((workBack) => (
-            <Card className="col-12" style={{ width: "25rem" }}>
+            <Card className="col-12" style={{ width: "30rem" }}>
              
               <Card.Body>
                 <Card.Title>{workBack.title}</Card.Title>
@@ -48,7 +48,7 @@ function Work() {
 
         <div className="row justify-content-center" id="front">
           {workFront.map((workFront) => (
-            <Card className="col-12" style={{ width: "25rem" }}>
+            <Card className="col-12" style={{ width: "30rem" }}>
               <Card.Img variant="top" className="testimonialImages d-block p-5 w-100 img-fluid rounded" src={workFront.image} alt={workFront.alt} />
               <Card.Body>
                 <Card.Title>{workFront.title}</Card.Title>
