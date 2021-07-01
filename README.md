@@ -20,6 +20,6 @@ This is my portfolio created using bootstrap in React.  The user has the ability
 
 ## Screenshots
 
-![portfolio-react](assets/about.png)
-![portfolio-react](assets/skills.png)
-![portfolio-react](assets/work.png)
+![](assets/aboutMe.png)
+![](assets/skills.png)
+![](assets/workCards.png)
