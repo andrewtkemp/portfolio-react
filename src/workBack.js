@@ -5,7 +5,7 @@ const workBack =[
     "id": 3,
     "title": "Team Profile Generator",
     "description": "This command-line application takes in information about employees on a software engineering team, then generates an HTML webpage that displays a summary of employees.",
-    "technology": "JavaScript, Node.js, Inquirer, Jest, Materialize",
+    "technology": "JavaScript, Node.js, Inquirer, Jest",
     "repo": "https://github.com/MichelleBerta/team-profile-generator",
     "demo": "https://www.youtube.com/embed/bDa6KxiWZ2c"
 },
